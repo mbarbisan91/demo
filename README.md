@@ -12,7 +12,17 @@
 
 # Installing Boto3 for python: 
 
+	https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+	
 	pip3 install boto boto3
+	
+# Aws IAM Permissions: 
+	
+	https://aws.amazon.com/iam/features/manage-permissions/
+	
+	AmazonS3FullAccess
+	AmazonEC2FullAccess
+	AmazonVPCFullAccess
 
 # Aws-cli installation: 
 
@@ -59,7 +69,6 @@
 	Set the Environment on the python script (dev to prd): 
 
 	globalVars['env']                      = {'Key': 'Environment', 'Value': 'dev'} 
-
 
 
 UserData change for this:  
